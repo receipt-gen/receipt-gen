@@ -131,7 +131,7 @@ USE_TZ = True
 
 
 # https://warehouse.python.org/project/whitenoise/
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+STATICFILES_STORAGE = "whitenoise.storage.CompressedStaticFilesStorage"
 
 
 # Static files (CSS, JavaScript, Images)
