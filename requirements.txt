@@ -8,10 +8,12 @@ charset-normalizer==2.0.10
 click==8.0.3
 coreapi==2.3.3
 coreschema==0.0.4
+dj-database-url==0.5.0
 Django==4.0.1
 djangorestframework==3.13.1
 drf-yasg==1.20.0
 future==0.18.2
+gunicorn==20.1.0
 html5lib==1.1
 idna==3.3
 inflection==0.5.1
@@ -27,6 +29,7 @@ packaging==21.3
 pathspec==0.9.0
 Pillow==9.0.0
 platformdirs==2.4.1
+psycopg2-binary==2.9.3
 pylint==2.12.2
 pylint-django==2.5.0
 pylint-plugin-utils==0.7
@@ -34,6 +37,7 @@ pyparsing==3.0.6
 PyPDF2==1.26.0
 pyrsistent==0.18.1
 python-bidi==0.4.2
+python-decouple==3.5
 pytz==2021.3
 PyYAML==6.0
 reportlab==3.6.5
@@ -49,5 +53,6 @@ typing_extensions==4.0.1
 uritemplate==4.1.1
 urllib3==1.26.8
 webencodings==0.5.1
+whitenoise==5.3.0
 wrapt==1.13.3
 xhtml2pdf==0.2.5
