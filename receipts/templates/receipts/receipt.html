@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Payment Receipt</h1>
+    <div>
+      <span>Name:</span>
+      <strong>{{ receipt.name }}</strong>
+    </div>
+    <div>
+      <span>Address:</span>
+      <strong>{{ receipt.address }}</strong>
+    </div>
+    <div>
+      <span>Phone number:</span>
+      <strong>{{ receipt.address }}</strong>
+    </div>
+    <div>
+      <span>Total amount payable:</span>
+      <strong>NGN {{ receipt.formatted_amount }}</strong>
+    </div>
+    <div>
+      <span>Date:</span>
+      <strong>{{ receipt.created_at|date:"M j, Y" }}</strong>
+    </div>
+  </body>
+</html>
