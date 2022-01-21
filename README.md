@@ -1,6 +1,8 @@
-# Timestamped UUID Generator
+# Receipt Generation System
 
-Areceipt generation system that conveniently allows users to generate the receipts PDF.
+https://receipt-gen.herokuapp.com
+
+A receipt generation system that conveniently allows users to generate the receipts PDF.
 
 ## Requirement
 
