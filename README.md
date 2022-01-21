@@ -1,7 +1,5 @@
 # Receipt Generation System
 
-https://receipt-gen.herokuapp.com
-
 A receipt generation system that conveniently allows users to generate the receipts PDF.
 
 ## Requirement
@@ -23,3 +21,11 @@ To install the project, please run the following commands:
 `python manage.py runserver`
 
 The API URL can be accessed at `127.0.0.1:8000/swagger`
+
+## Live Version
+
+URL: https://receipt-gen.herokuapp.com/swagger/
+
+Email: john@example.com
+
+Password: password
